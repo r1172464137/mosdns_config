@@ -199,10 +199,10 @@ plugins:
     type: udp_server
     args:
       entry: main_sequence # 收到的请求会执行上面的逻辑
-      listen: ':53'
+      listen: ':5335'
 
   - tag: tcp_server
     type: tcp_server
     args:
       entry: main_sequence
-      listen: ':53'
+      listen: ':5335'

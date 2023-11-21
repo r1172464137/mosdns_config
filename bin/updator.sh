@@ -17,5 +17,4 @@ mv -f ${mosdnsDir}/tmp/* ${mosdnsDir}/online_rules
 # force delete tmp directory
 rm -rf ${mosdnsDir}/tmp
 # 重启 mosdns
-docker restart mosdns
-echo "mosdns restarted"
+echo "更新完成"
